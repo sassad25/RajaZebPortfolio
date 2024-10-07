@@ -6,21 +6,21 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Sr. Software Engineer",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
+    cardImage: "assets/images/experience-page/fiserv.png",
     place: "Fiserv, Berkeley Heights, NJ",
     time: "(Nov, 2022 - present)",
     desp: "<li>Developed service using Spring Cloud Function which process data sent Amazon S3 bucket and Amazon Kinesis streams using inbound Lambda which parses data, validates, calculates and stores in PostgreSQL RDS. Outbound Lambda processing generate out files sent to Legacy system.</li><li>Integrated with NACHA processors for sending and receiving ACH files.</li> <li>Refactored Vue 2 components to align with the Vue 3 component structure and composition API, improving code maintainability and readability.</li>",
   },
   {
     title: "Sr. Software Engineer",
-    cardImage: "assets/images/experience-page/gsoc.png",
+    cardImage: "assets/images/experience-page/Orbcomm.png",
     place: "Orbcomm, Rochelle Park, NJ",
     time: "(Feb, 2022 - Oct, 2022)",
     desp: "<li>Implemented UI using Angular JS, Java Script, jQuery, HTML5 &amp; CSS3.</li><li>Involved in front-end designing using HTML, CSS and JavaScript with Ajax and tag libraries.</li><li>Implemented Spring boot micro services to process the messages into the Kafka cluster setup.</li>",
   },
   {
     title: "Sr. Software Engineer",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/gm.jpg",
     place: "General Motors, Detroit, MI",
     time: "(Mar, 2019 - Jan, 2022)",
     desp: "<li>Involved in various phases of Software Development Life Cycle (SDLC) such as requirements gathering, modeling, analysis, design, development, and testing.</li><li>Knowledge of Scala&#39;s rich collection libraries and their functional programming aspects, enabling efficient data processing and manipulation.</li>",
