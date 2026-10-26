@@ -272,6 +272,45 @@ ul { margin: 0; padding: 0; list-style: none; }
 .footer { border-top: 1px solid var(--border); padding: 2rem 0; text-align: center; color: var(--text-faint); font-size: .9rem; }
 .footer a { color: var(--brand-500); }
 
+/* ---------- Projects ---------- */
+.btn--sm { padding: .5rem .9rem; font-size: .85rem; border-radius: 10px; }
+.btn--sm svg { width: 16px; height: 16px; }
+
+.project-card {
+  display: flex; flex-direction: column;
+  background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1.4rem; box-shadow: var(--shadow-sm);
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.project-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); border-color: var(--brand-400); }
+.project-card__top { display: flex; align-items: center; justify-content: space-between; gap: .75rem; margin-bottom: 1rem; }
+.project-card__icon {
+  width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--brand-500) 22%, transparent), color-mix(in srgb, var(--accent-500) 22%, transparent));
+  color: var(--brand-500);
+}
+.project-card__icon svg { width: 24px; height: 24px; }
+.project-card__badge {
+  font-family: var(--font-mono); font-size: .68rem; font-weight: 600; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--accent-500);
+  background: color-mix(in srgb, var(--accent-500) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-500) 30%, transparent);
+  padding: .3rem .6rem; border-radius: 999px; white-space: nowrap;
+}
+.project-card h3 { font-size: 1.1rem; margin: 0 0 .5rem; }
+.project-card p { color: var(--text-soft); font-size: .93rem; margin: 0 0 1rem; }
+.project-card .tag-list { margin-bottom: 1.2rem; }
+.project-card__links { margin-top: auto; display: flex; gap: .6rem; }
+
+.projects__note {
+  display: flex; align-items: flex-start; gap: .6rem;
+  margin: 2rem 0 0; padding: 1rem 1.2rem;
+  background: var(--bg-elev); border: 1px dashed var(--border); border-radius: var(--radius-sm);
+  color: var(--text-faint); font-size: .9rem;
+}
+.projects__note svg { width: 18px; height: 18px; flex: none; margin-top: 2px; color: var(--brand-500); }
+.projects__note a { color: var(--brand-500); font-weight: 600; }
+
 /* ---------- Scroll reveal ---------- */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
 .reveal.is-visible { opacity: 1; transform: none; }
